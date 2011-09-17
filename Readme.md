@@ -20,8 +20,9 @@ NEVER WORRY ABOUT SETTING UP MYSQL AND PHP ON YOUR MAC EVER AGAIN!
     $ vagrant up
     $ open http://localhost:8080
 
-Copy a base theme (like [Starkers][starkers]) into the theme directory, choose
-it in the Wordpress dashboard, and get to work!
+You'll need to install Wordpress (i.e. set up an admin user, name the Wordpress 
+blog etc.). Then copy a base theme (like the totally stripped-down [Starkers][starkers]) into the theme 
+directory, select Appearance > Themes in the Wordpress dashboard, choose the new theme and get to work!
 
 Your Ubuntu/PHP/MySQL box exists as a virtual machine. The website running on 
 the virtual machine is pointing back at the theme directory on your local 
